@@ -1,0 +1,38 @@
+#animal: cat
+#animal: {a1: dog, a2: cat}
+#YML_DATA:
+#  - a1: dog
+#  - a2: cat
+#
+#YML_DATA2: [a1: dog, a2: cat]
+
+#YML_DATA:
+#  - a1: Null
+#  - a2: ~
+
+#Search_Data:
+#  search_test_001:
+#    value: 456
+#    expect: [4,5,6]
+#  search_test_002:
+#    value: "你好"
+#    expect: {"value":"你好"}
+
+#Test:
+#  login_data01:
+#    name: lili
+#    pwd: 456
+#  login_data02:
+#    name: nana
+#    pwd: 567
+#  login_data03:
+#    name: haha
+#    pwd: 789
+
+Test:
+  search_001:
+    test: 1
+  search_002:
+    test: 2
+  search_003:
+    test: 3
